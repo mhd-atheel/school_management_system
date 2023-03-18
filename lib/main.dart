@@ -26,6 +26,12 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        fontFamily: 'Poppins',
+        scaffoldBackgroundColor: Colors.white,
+        textTheme: Theme.of(context).textTheme.apply(
+          bodyColor: const Color(0xff4FA4F4), //<-- SEE HERE
+          displayColor: const Color(0xff4FA4F4), //<-- SEE HERE
+        ),
       ),
       home: const SplashScreen(),
     );

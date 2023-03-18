@@ -8,7 +8,7 @@ class DashboardBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.width/2.25,
+      height: MediaQuery.of(context).size.width/3,
       width: MediaQuery.of(context).size.width/2.25,
       decoration: BoxDecoration(
         color: color,
@@ -18,20 +18,26 @@ class DashboardBox extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
           Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 8,vertical: 13),
+            padding: const EdgeInsets.symmetric(horizontal: 0,vertical: 13),
             child:  Text(name,style: const TextStyle(
                 fontSize: 25,
-                fontWeight: FontWeight.bold,
+                fontWeight: FontWeight.w700,
                 color: Colors.white
             ),),
           ),
-          SizedBox(height: 20,),
-          Text(count,
-            style:const TextStyle(
-                fontSize: 45,
-                fontWeight: FontWeight.bold,
-                color: Colors.white
-            ),
+          // SizedBox(height: 20,),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: [
+              Text(count,
+                style:const TextStyle(
+                    fontSize: 40,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white
+                ),
+              ),
+              SizedBox(width: 30,),
+            ],
           ),
 
         ],
