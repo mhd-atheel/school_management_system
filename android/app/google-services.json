@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "295074751396",
+    "project_id": "school-management-system-bff13",
+    "storage_bucket": "school-management-system-bff13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295074751396:android:9169e088476ca22b5ed731",
+        "android_client_info": {
+          "package_name": "com.example.school_management_system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295074751396-57td1u8moi917ifupk3e9jvki1nfalgs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7xpVtnuxTYclp0ym1FljfgXHxUjnas1E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295074751396-57td1u8moi917ifupk3e9jvki1nfalgs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
