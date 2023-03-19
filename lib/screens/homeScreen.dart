@@ -115,10 +115,11 @@ class HomeScreen extends StatelessWidget {
                   {
                     'id': 'Bar',
                     'data': [
-                      {'domain': '2020', 'measure': 3},
+                      {'domain': '2020', 'measure': 10},
                       {'domain': '2021', 'measure': 4},
                       {'domain': '2022', 'measure': 6},
-                      {'domain': '2023', 'measure': 0.3},
+                      {'domain': '2023', 'measure': 3.3},
+                      {'domain': '2024', 'measure': 3.3},
                     ],
                   },
                 ],
