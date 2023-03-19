@@ -38,6 +38,7 @@ dependencies:
   cloud_firestore: ^4.4.5
   firebase_core: ^2.8.0
   firebase_storage: ^11.0.16
+  d_chart: ^2.2.11
 
 
 dev_dependencies:
